@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telemedicine App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Telemedicine Application</h1>
+      <img
+        src="a telemedicine  dc3dc573-ffbb-4b4c-92d2-ce1d842599a8.png"
+        alt="Logo"
+        class="logo"
+      />
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <main>
+        <section id="home">
+          <h2>Welcome to Our Telemedicine Service</h2>
+          <p>Providing remote healthcare at your convenience.</p>
+        </section>
+
+        <section id="services">
+          <h2>Services</h2>
+          <form>
+            <!-- Add your telemedicine forms here -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+
+            <label for="appointment">Appointment Date:</label>
+            <input type="date" id="appointment" name="appointment" />
+
+            <label for="service">Service Required:</label>
+            <select id="service" name="service">
+              <option value="consultation">Consultation</option>
+              <option value="follow-up">Follow-up</option>
+            </select>
+
+            <input type="submit" value="Book Appointment" />
+          </form>
+        </section>
+      </main>
+
+      <aside>
+        <h3>Additional Info</h3>
+        <input type="search" placeholder="Search..." />
+        <ul>
+          <li><a href="#">Health Tips</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Telemedicine App. All rights reserved.</p>
+      <ul class="social-links">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+      <p>Contact us: info@telemedicine.com | +123-456-7890</p>
+    </footer>
+  </body>
+</html>
